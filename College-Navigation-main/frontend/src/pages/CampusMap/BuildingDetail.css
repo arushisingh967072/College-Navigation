@@ -1,0 +1,39 @@
+/* Building Detail Styling */
+.building-detail {
+    padding: 20px;
+    text-align: center; /* Center-align text and image */
+}
+
+.building-name {
+    font-size: 2em; /* Larger font size for the building name */
+    margin-bottom: 20px; /* Space below the name */
+    color: #333; /* Color for the building name */
+}
+
+.building-detail-image {
+    width: 80%; /* Greater width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.building-description {
+    font-size: 1.2em; /* Increased size for better readability */
+    color: #555; /* Subtle color for description text */
+    line-height: 1.5; /* Better line height for readability */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .building-detail-image {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .building-name {
+        font-size: 1.5em; /* Smaller font size on mobile */
+    }
+
+    .building-description {
+        font-size: 1em; /* Adjust font size on mobile */
+    }
+}

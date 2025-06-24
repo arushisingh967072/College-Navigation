@@ -1,0 +1,60 @@
+/* src/pages/Navbar/navbar.css */
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  color: #333; /* Adjust text color for contrast */
+  padding: 5px 20px; /* Compact padding */
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+  height: 60px; /* Fixed navbar height */
+  position: fixed; /* Make navbar fixed */
+  top: 0; /* Align it to the top of the viewport */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+
+
+.navbar img.college-logo {
+  height: 40px; /* Set a small height for the logo */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Space between logo and menu */
+}
+
+.navbar ul {
+  justify-content: center; /* Center the list in the navbar */
+  flex-grow: 1; /* Allow the ul to take up available space */
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Arrange list items horizontally */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.navbar li {
+  margin: 0 15px; /* Space between menu items */
+}
+
+.navbar a {
+  color: black; /* Link text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Set font size for menu items */
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline effect on hover */
+}
+
+/* New styles for navbar icons */
+.navbar-icons {
+  display: flex; /* Display icons in a row */
+  align-items: center; /* Center icons vertically */
+}
+
+.icon {
+  width: 30px; /* Set icon size */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 15px; /* Space between icons */
+  filter: brightness(0) invert(1); /* Make icons white using CSS filter */
+}
