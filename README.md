@@ -1,16 +1,16 @@
-📍 College Navigation System
+# 📍 College Navigation System
 
 A smart, map-based solution for navigating large college campuses with ease. Features include real-time routing, indoor room-level navigation, 3D building views, and a faculty search system.
 
 ---
 
-🚀 Overview
+## 🚀 Overview
 
 This system helps students, faculty, and visitors navigate the campus efficiently. It integrates 3D models, real-time directions, and searchable directories to improve the user experience.
 
 ---
 
-🔥 Key Features
+## 🔥 Key Features
 
 * 🗺️ **Campus Map:** View all buildings, hostels, and key areas
 * 🏢 **Indoor Navigation:** Locate rooms, labs, and faculty offices
@@ -22,9 +22,9 @@ This system helps students, faculty, and visitors navigate the campus efficientl
 
 ---
 
-🛠 Installation Guide
+## 🛠 Installation Guide
 
-# Backend Setup
+### Backend Setup
 
 ```bash
 git clone https://github.com/yourusername/college-navigation.git
@@ -33,7 +33,7 @@ npm install
 npm start
 ```
 
-# Frontend Setup
+### Frontend Setup
 
 ```bash
 cd ../frontend
@@ -43,9 +43,9 @@ npm run dev
 
 ---
 
-⚙️ Dependencies
+## ⚙️ Dependencies
 
-# Backend
+### Backend
 
 ```json
 {
@@ -61,7 +61,7 @@ npm run dev
 }
 ```
 
-# Frontend
+### Frontend
 
 ```json
 {
@@ -81,7 +81,7 @@ npm run dev
 
 ---
 
-🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 * [OpenStreetMap](https://www.openstreetmap.org/), [Google Maps](https://maps.google.com/), [Mapbox](https://www.mapbox.com/) – Mapping APIs
 * [React](https://react.dev/), [Vite](https://vitejs.dev/), [TailwindCSS](https://tailwindcss.com/) – UI frameworks
