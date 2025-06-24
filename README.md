@@ -2,45 +2,52 @@
 
 A smart, map-based solution for navigating large college campuses with ease. Features include real-time routing, indoor room-level navigation, 3D building views, and a faculty search system.
 
+---
+
 🚀 Overview
 
 This system helps students, faculty, and visitors navigate the campus efficiently. It integrates 3D models, real-time directions, and searchable directories to improve the user experience.
 
+---
+
 🔥 Key Features
 
-🗺️ Campus Map: View all buildings, hostels, and key areas
+* 🗺️ **Campus Map:** View all buildings, hostels, and key areas
+* 🏢 **Indoor Navigation:** Locate rooms, labs, and faculty offices
+* 📍 **Live Directions:** Turn-by-turn routes using Dijkstra's algorithm
+* 🎮 **3D Visualization:** Explore the campus in 3D
+* 🔍 **Smart Search:** Find faculty and places using Fuse.js
+* 📅 **Event Integration:** View announcements and event locations
+* 📱 **Responsive Design:** Works well on all devices
 
-🏢 Indoor Navigation: Locate rooms, labs, and faculty offices
-
-📍 Live Directions: Turn-by-turn routes using Dijkstra's algorithm
-
-🎮 3D Visualization: Explore the campus in 3D
-
-🔍 Smart Search: Find faculty and places using Fuse.js
-
-📅 Event Integration: View announcements and event locations
-
-📱 Responsive Design: Works well on all devices
+---
 
 🛠 Installation Guide
 
-Backend Setup
+# Backend Setup
 
+```bash
 git clone https://github.com/yourusername/college-navigation.git
 cd college-navigation/backend
 npm install
 npm start
+```
 
-Frontend Setup
+# Frontend Setup
 
+```bash
 cd ../frontend
 npm install
 npm run dev
+```
+
+---
 
 ⚙️ Dependencies
 
-Backend
+# Backend
 
+```json
 {
   "bcrypt": "^5.1.1",
   "cors": "^2.8.5",
@@ -52,9 +59,11 @@ Backend
   "socket.io": "^4.8.1",
   "socket.io-client": "^4.8.1"
 }
+```
 
-Frontend
+# Frontend
 
+```json
 {
   "@react-google-maps/api": "^2.20.3",
   "axios": "^1.7.7",
@@ -68,12 +77,12 @@ Frontend
   "react-leaflet": "^4.2.1",
   "react-router-dom": "^6.26.2"
 }
+```
+
+---
 
 🙏 Acknowledgements
 
-OpenStreetMap, Google Maps, Mapbox – Mapping APIs
-
-React, Vite, TailwindCSS – UI frameworks
-
-Leaflet, Three.js, GSAP – Visualization tools
-
+* [OpenStreetMap](https://www.openstreetmap.org/), [Google Maps](https://maps.google.com/), [Mapbox](https://www.mapbox.com/) – Mapping APIs
+* [React](https://react.dev/), [Vite](https://vitejs.dev/), [TailwindCSS](https://tailwindcss.com/) – UI frameworks
+* [Leaflet](https://leafletjs.com/), [Three.js](https://threejs.org/), [GSAP](https://gsap.com/) – Visualization tools
